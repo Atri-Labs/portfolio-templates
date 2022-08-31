@@ -10,7 +10,7 @@ import { Flex as Flex3 } from "@atrilabs/react-component-manifests/src/manifests
 import { Menu as Menu3 } from "@atrilabs/react-component-manifests/src/manifests/Menu/Menu.tsx";
 import { Image as Image3 } from "@atrilabs/react-component-manifests/src/manifests/Image/Image.tsx";
 import { Upload as Upload1 } from "@atrilabs/react-component-manifests/src/manifests/Upload/Upload.tsx";
-import { useTextBox199Cb, useTextBox200Cb, useTextBox201Cb, useButton24Cb, useFlex253Cb, useTextBox202Cb, useFlex254Cb, useMenu11Cb, useImage44Cb, useUpload3Cb, useFlex258Cb, useFlex259Cb, useTextBox203Cb, useTextBox204Cb, useImage45Cb, useTextBox206Cb, useFlex263Cb, useButton25Cb, useTextBox207Cb, useFlex264Cb, useButton26Cb, useTextBox208Cb, useButton27Cb, useTextBox210Cb, useFlex269Cb, useFlex270Cb, useTextBox211Cb, useTextBox212Cb, useButton28Cb, useFlex272Cb, useTextBox213Cb, useFlex273Cb, useButton29Cb, useTextBox214Cb, useFlex275Cb, useFlex276Cb, useTextBox215Cb, useFlex278Cb, useButton30Cb, useTextBox216Cb, useFlex279Cb, useButton31Cb, useTextBox217Cb, useFlex280Cb, useButton33Cb, useTextBox219Cb, useFlex282Cb, useFlex283Cb, useTextBox220Cb, useTextBox221Cb, useTextBox222Cb, useFlex284Cb, useTextBox223Cb, useButton34Cb, useFlex285Cb, useTextBox224Cb, useFlex286Cb, useImage47Cb, useUpload4Cb, useFlex287Cb, useFlex288Cb, useImage50Cb, useUpload7Cb, useFlex312Cb, useTextBox242Cb } from "../page-cbs/view_page";
+import { useTextBox199Cb, useTextBox200Cb, useTextBox201Cb, useButton24Cb, useFlex253Cb, useTextBox202Cb, useFlex254Cb, useMenu11Cb, useImage44Cb, useUpload3Cb, useFlex258Cb, useFlex259Cb, useTextBox203Cb, useTextBox204Cb, useImage45Cb, useTextBox206Cb, useFlex263Cb, useButton25Cb, useTextBox207Cb, useFlex264Cb, useButton26Cb, useTextBox208Cb, useButton27Cb, useTextBox210Cb, useFlex269Cb, useFlex270Cb, useTextBox211Cb, useTextBox212Cb, useButton28Cb, useFlex272Cb, useTextBox213Cb, useFlex273Cb, useButton29Cb, useTextBox214Cb, useFlex275Cb, useFlex276Cb, useTextBox215Cb, useFlex278Cb, useButton30Cb, useTextBox216Cb, useFlex279Cb, useButton31Cb, useTextBox217Cb, useFlex280Cb, useButton33Cb, useTextBox219Cb, useFlex282Cb, useFlex283Cb, useTextBox220Cb, useTextBox221Cb, useTextBox222Cb, useFlex284Cb, useTextBox223Cb, useButton34Cb, useFlex285Cb, useTextBox224Cb, useFlex286Cb, useImage47Cb, useUpload4Cb, useFlex287Cb, useFlex288Cb, useImage50Cb, useUpload7Cb, useFlex312Cb, useTextBox242Cb, useFlex330Cb, useButton48Cb, useButton51Cb, useButton52Cb, useFlex336Cb, useTextBox252Cb } from "../page-cbs/view_page";
 
 export default function ViewPage() {
   const navigate = useNavigate();
@@ -237,6 +237,24 @@ const Flex312Cb = useFlex312Cb()
 const TextBox242Props = useStore((state)=>state["view_page"]["TextBox242"]);
 const TextBox242IoProps = useIoStore((state)=>state["view_page"]["TextBox242"]);
 const TextBox242Cb = useTextBox242Cb()
+const Flex330Props = useStore((state)=>state["view_page"]["Flex330"]);
+const Flex330IoProps = useIoStore((state)=>state["view_page"]["Flex330"]);
+const Flex330Cb = useFlex330Cb()
+const Button48Props = useStore((state)=>state["view_page"]["Button48"]);
+const Button48IoProps = useIoStore((state)=>state["view_page"]["Button48"]);
+const Button48Cb = useButton48Cb()
+const Button51Props = useStore((state)=>state["view_page"]["Button51"]);
+const Button51IoProps = useIoStore((state)=>state["view_page"]["Button51"]);
+const Button51Cb = useButton51Cb()
+const Button52Props = useStore((state)=>state["view_page"]["Button52"]);
+const Button52IoProps = useIoStore((state)=>state["view_page"]["Button52"]);
+const Button52Cb = useButton52Cb()
+const Flex336Props = useStore((state)=>state["view_page"]["Flex336"]);
+const Flex336IoProps = useIoStore((state)=>state["view_page"]["Flex336"]);
+const Flex336Cb = useFlex336Cb()
+const TextBox252Props = useStore((state)=>state["view_page"]["TextBox252"]);
+const TextBox252IoProps = useIoStore((state)=>state["view_page"]["TextBox252"]);
+const TextBox252Cb = useTextBox252Cb()
 
   return (<>
   <Flex3 {...Flex312Props} {...Flex312Cb} {...Flex312IoProps}>
@@ -275,6 +293,14 @@ const TextBox242Cb = useTextBox242Cb()
 </Flex3>
 </Flex3>
 <TextBox3 {...TextBox242Props} {...TextBox242Cb} {...TextBox242IoProps}/>
+</Flex3>
+<Flex3 {...Flex336Props} {...Flex336Cb} {...Flex336IoProps}>
+<TextBox3 {...TextBox252Props} {...TextBox252Cb} {...TextBox252IoProps}/>
+<Flex3 {...Flex330Props} {...Flex330Cb} {...Flex330IoProps}>
+<Button3 {...Button48Props} {...Button48Cb} {...Button48IoProps}/>
+<Button3 {...Button51Props} {...Button51Cb} {...Button51IoProps}/>
+<Button3 {...Button52Props} {...Button52Cb} {...Button52IoProps}/>
+</Flex3>
 </Flex3>
   </>);
 }

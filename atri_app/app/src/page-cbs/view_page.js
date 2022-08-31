@@ -1005,3 +1005,91 @@ export function useTextBox242Cb() {
 }), [])
 	return { onClick }
 }
+export function useFlex330Cb() {
+	const onClick = useCallback(callbackFactory("Flex330", "view_page", "/view_page", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useButton48Cb() {
+	const onClick = useCallback(callbackFactory("Button48", "view_page", "/view_page", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useButton51Cb() {
+	const onClick = useCallback(callbackFactory("Button51", "view_page", "/view_page", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useButton52Cb() {
+	const onClick = useCallback(callbackFactory("Button52", "view_page", "/view_page", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex336Cb() {
+	const onClick = useCallback(callbackFactory("Flex336", "view_page", "/view_page", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox252Cb() {
+	const onClick = useCallback(callbackFactory("TextBox252", "view_page", "/view_page", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
