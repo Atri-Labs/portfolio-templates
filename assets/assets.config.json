@@ -1,29 +1,38 @@
 {
-  "joseph-gonzalez-iFgRcqHznqg-unsplash.jpg": {
-    "mime": "image/jpeg"
-  },
-  "brand_bg.png": {
-    "mime": "image/png"
-  },
-  "arrow-up-right.png": {
-    "mime": "image/png"
-  },
-  "arrow-link.svg": {
-    "mime": "image/svg+xml"
-  },
-  "LinkedIn logo.svg": {
-    "mime": "image/svg+xml"
-  },
-  "Twitter logo.svg": {
-    "mime": "image/svg+xml"
-  },
-  "arrow-right.svg": {
-    "mime": "image/svg+xml"
-  },
-  "File upload.svg": {
-    "mime": "image/svg+xml"
-  },
-  "play.svg": {
-    "mime": "image/svg+xml"
-  }
+	"joseph-gonzalez-iFgRcqHznqg-unsplash.jpg": {
+		"mime": "image/jpeg"
+	},
+	"brand_bg.png": {
+		"mime": "image/png"
+	},
+	"arrow-up-right.png": {
+		"mime": "image/png"
+	},
+	"arrow-link.svg": {
+		"mime": "image/svg+xml"
+	},
+	"LinkedIn logo.svg": {
+		"mime": "image/svg+xml"
+	},
+	"Twitter logo.svg": {
+		"mime": "image/svg+xml"
+	},
+	"arrow-right.svg": {
+		"mime": "image/svg+xml"
+	},
+	"File upload.svg": {
+		"mime": "image/svg+xml"
+	},
+	"play.svg": {
+		"mime": "image/svg+xml"
+	},
+	"1.svg": {
+		"mime": "image/svg+xml"
+	},
+	"2.svg": {
+		"mime": "image/svg+xml"
+	},
+	"3.svg": {
+		"mime": "image/svg+xml"
+	}
 }

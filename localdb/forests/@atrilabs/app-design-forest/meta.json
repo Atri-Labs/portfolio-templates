@@ -1,15 +1,16 @@
 {
-  "folders": {
-    "root": {
-      "id": "root",
-      "name": "/",
-      "parentId": ""
-    }
-  },
-  "pages": {
-    "home": "root",
-    "776147f8-bcc5-4c89-8ece-e0827118b73f": "root",
-    "4c03e464-31a1-4e75-ac17-b69be8880ca0": "root",
-    "ce9ed974-1cf3-4f18-9301-e7e548f91ed3": "root"
-  }
+	"folders": {
+		"root": {
+			"id": "root",
+			"name": "/",
+			"parentId": ""
+		}
+	},
+	"pages": {
+		"home": "root",
+		"776147f8-bcc5-4c89-8ece-e0827118b73f": "root",
+		"4c03e464-31a1-4e75-ac17-b69be8880ca0": "root",
+		"ce9ed974-1cf3-4f18-9301-e7e548f91ed3": "root",
+		"50e561a1-2895-43f3-8f94-4c429bd678cd": "root"
+	}
 }
