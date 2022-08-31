@@ -2052,46 +2052,6 @@ export function useButton56Cb() {
 }), [])
 	return { onClick }
 }
-export function useTextBox253Cb() {
-	const onClick = useCallback(callbackFactory("TextBox253", "view_project", "/view_project", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useFlex337Cb() {
-	const onClick = useCallback(callbackFactory("Flex337", "view_project", "/view_project", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useFlex338Cb() {
-	const onClick = useCallback(callbackFactory("Flex338", "view_project", "/view_project", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
 export function useButton57Cb() {
 	const onClick = useCallback(callbackFactory("Button57", "view_project", "/view_project", "onClick", 
 			{
@@ -2110,6 +2070,150 @@ export function useButton57Cb() {
 }
 export function useButton58Cb() {
 	const onClick = useCallback(callbackFactory("Button58", "view_project", "/view_project", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox263Cb() {
+	const onClick = useCallback(callbackFactory("TextBox263", "view_project", "/view_project", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox265Cb() {
+	const onClick = useCallback(callbackFactory("TextBox265", "view_project", "/view_project", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useButton59Cb() {
+	const onClick = useCallback(callbackFactory("Button59", "view_project", "/view_project", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useButton60Cb() {
+	const onClick = useCallback(callbackFactory("Button60", "view_project", "/view_project", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useButton61Cb() {
+	const onClick = useCallback(callbackFactory("Button61", "view_project", "/view_project", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox267Cb() {
+	const onClick = useCallback(callbackFactory("TextBox267", "view_project", "/view_project", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useButton62Cb() {
+	const onClick = useCallback(callbackFactory("Button62", "view_project", "/view_project", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useButton63Cb() {
+	const onClick = useCallback(callbackFactory("Button63", "view_project", "/view_project", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useButton64Cb() {
+	const onClick = useCallback(callbackFactory("Button64", "view_project", "/view_project", "onClick", 
 			{
   "handlers": [
     {

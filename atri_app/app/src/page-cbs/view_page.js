@@ -1093,3 +1093,31 @@ export function useTextBox252Cb() {
 }), [])
 	return { onClick }
 }
+export function useTextBox264Cb() {
+	const onClick = useCallback(callbackFactory("TextBox264", "view_page", "/view_page", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex351Cb() {
+	const onClick = useCallback(callbackFactory("Flex351", "view_page", "/view_page", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
