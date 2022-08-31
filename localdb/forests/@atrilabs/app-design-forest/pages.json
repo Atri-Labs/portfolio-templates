@@ -1,18 +1,22 @@
 {
-  "home": {
-    "name": "Home",
-    "route": "/"
-  },
-  "776147f8-bcc5-4c89-8ece-e0827118b73f": {
-    "name": "dc",
-    "route": "/dc"
-  },
-  "4c03e464-31a1-4e75-ac17-b69be8880ca0": {
-    "name": "view_project",
-    "route": "/view_project"
-  },
-  "ce9ed974-1cf3-4f18-9301-e7e548f91ed3": {
-    "name": "view_page",
-    "route": "/view_page"
-  }
+	"home": {
+		"name": "Home",
+		"route": "/"
+	},
+	"776147f8-bcc5-4c89-8ece-e0827118b73f": {
+		"name": "dc",
+		"route": "/dc"
+	},
+	"4c03e464-31a1-4e75-ac17-b69be8880ca0": {
+		"name": "view_project",
+		"route": "/view_project"
+	},
+	"ce9ed974-1cf3-4f18-9301-e7e548f91ed3": {
+		"name": "view_page",
+		"route": "/view_page"
+	},
+	"50e561a1-2895-43f3-8f94-4c429bd678cd": {
+		"name": "sg",
+		"route": "/sg"
+	}
 }
