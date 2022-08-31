@@ -1,7 +1,7 @@
 {
-  "Flex": 11,
-  "TextBox": 9,
+  "Flex": 45,
+  "TextBox": 71,
   "Button": 2,
   "Menu": 1,
-  "Image": 1
+  "Image": 5
 }

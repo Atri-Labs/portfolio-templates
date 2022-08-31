@@ -5,6 +5,9 @@
   "pages": {
     "/": {
       "name": "Home"
+    },
+    "/sg": {
+      "name": "sg"
     }
   },
   "publicUrlAssetMap": {

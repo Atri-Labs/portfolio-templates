@@ -4,5 +4,14 @@
   },
   "brand_bg.png": {
     "mime": "image/png"
+  },
+  "1.svg": {
+    "mime": "image/svg+xml"
+  },
+  "2.svg": {
+    "mime": "image/svg+xml"
+  },
+  "3.svg": {
+    "mime": "image/svg+xml"
   }
 }
