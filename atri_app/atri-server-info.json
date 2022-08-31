@@ -11,6 +11,9 @@
     },
     "/view_project": {
       "name": "view_project"
+    },
+    "/view_page": {
+      "name": "view_page"
     }
   },
   "publicUrlAssetMap": {

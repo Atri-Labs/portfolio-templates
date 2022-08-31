@@ -1,10 +1,10 @@
 {
-  "Flex": 262,
-  "TextBox": 205,
-  "Button": 24,
+  "Flex": 324,
+  "TextBox": 251,
+  "Button": 46,
   "Menu": 11,
-  "Image": 46,
+  "Image": 51,
   "Input": 5,
   "Link": 1,
-  "Upload": 3
+  "Upload": 8
 }
