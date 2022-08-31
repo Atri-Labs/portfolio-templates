@@ -1,5 +1,17 @@
 # Atri-Labs/portfolio-templates
 
+## What is this repository for ?
+
+This is a skeleton repositery for Software Developers or Machine Learning Engineers who want to put a nice portfolio on the web and showcase their projects to attract recruiters and have an edge above other candidates. 
+
+It includes a custom testing workbench which will help you to present your model in an impressive and userfriendly way. 
+
+## Do i need to know a lot of Web Development to use this project ?
+
+Absolutely not! Just clone the repo by following the steps below and edit the microcopies and assets as per your need. 
+
+Yes, thats all you need to do!
+
 ## How to use?
 
 ### Setup
