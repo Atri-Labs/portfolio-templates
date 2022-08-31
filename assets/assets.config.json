@@ -19,5 +19,11 @@
   },
   "arrow-right.svg": {
     "mime": "image/svg+xml"
+  },
+  "File upload.svg": {
+    "mime": "image/svg+xml"
+  },
+  "play.svg": {
+    "mime": "image/svg+xml"
   }
 }

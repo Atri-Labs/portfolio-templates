@@ -8,6 +8,9 @@
     },
     "/dc": {
       "name": "dc"
+    },
+    "/view_project": {
+      "name": "view_project"
     }
   },
   "publicUrlAssetMap": {
