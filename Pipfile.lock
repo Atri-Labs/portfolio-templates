@@ -119,11 +119,11 @@
         },
         "atri": {
             "hashes": [
-                "sha256:18a321b87c49d7196a6111be9a9f626327cc96fda6135825104c7161fbbd1674",
-                "sha256:df4ae2ebccbdbe2a998376d9344ca9c005e1b00bbe4750d60e3bf5990f0f35b3"
+                "sha256:47583cdd179ae41869cb5ab3645cbdbca3d5d3d78f370113585de54f057708d2",
+                "sha256:714cc66315d36623723ba01dabf2778d755241bf489af7a77db59c9d2f324fb2"
             ],
             "index": "pypi",
-            "version": "==0.0.49"
+            "version": "==0.0.50"
         },
         "atri-utils": {
             "hashes": [
@@ -416,7 +416,7 @@
                 "sha256:600d3aefecce26d48d97eee936fdb66e4bc27f934c3ab6dd1e292c4f43946d90",
                 "sha256:fecfcc8cca110fda9d561cb83f1e97ecbb93c613ff857f655818839dac74ce90"
             ],
-            "markers": "python_version >= '3.6' and python_version < '4'",
+            "markers": "python_version >= '3.6' and python_version < '4.0'",
             "version": "==1.10.0"
         },
         "requests": {
@@ -424,7 +424,7 @@
                 "sha256:7c5599b102feddaa661c826c56ab4fee28bfd17f5abca1ebbe3e7f19d7c97983",
                 "sha256:8fefa2a1a1365bf5520aac41836fbee479da67864514bdb821f31ce07ce65349"
             ],
-            "markers": "python_version >= '3.7' and python_version < '4'",
+            "markers": "python_version >= '3.7' and python_version < '4.0'",
             "version": "==2.28.1"
         },
         "six": {
@@ -472,7 +472,7 @@
                 "sha256:3fa96cf423e6987997fc326ae8df396db2a8b7c667747d47ddd8ecba91f4a74e",
                 "sha256:b930dd878d5a8afb066a637fbb35144fe7901e3b209d1cd4f524bd0e9deee997"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4, 3.5' and python_version < '4'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4, 3.5' and python_version < '4.0'",
             "version": "==1.26.12"
         },
         "uvicorn": {
