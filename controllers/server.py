@@ -174,10 +174,13 @@ def serve(obj, port, host, prod):
         req_dict = await req.json()
         route = req_dict["route"]
         state = req_dict["state"]
-        query = req_dict["query"]
+        query = req_dict["query"] if "query" in req_dict else ""
         routeDetails = getRouteDetails(route, obj["dir"])
         delta = compute_page_request(routeDetails, state, req, res, query)
-        return Response(json.dumps(delta, cls=AtriEncoder), media_type="application/json")
+        res.body = bytes(json.dumps(delta, cls=AtriEncoder), encoding="utf-8")
+        res.media_type = "application/json"
+        res.status_code = 200
+        return res
 
     @app.post("/event")
     async def handle_event(req: Request, res: Response):
@@ -190,7 +193,10 @@ def serve(obj, port, host, prod):
         event = {"event_data": event_data, "callback_name": callback_name, "alias": alias}
         routeDetails = getRouteDetails(route, obj["dir"])
         delta = compute_new_state(routeDetails, state, event, req, res)
-        return Response(json.dumps(delta, cls=AtriEncoder), media_type="application/json")
+        res.body = bytes(json.dumps(delta, cls=AtriEncoder), encoding="utf-8")
+        res.media_type = "application/json"
+        res.status_code = 200
+        return res
 
     @app.post("/event-in-form-handler")
     async def handle_event_with_form(
@@ -208,7 +214,10 @@ def serve(obj, port, host, prod):
         event = {"event_data": json.loads(eventData), "callback_name": callbackName, "alias": alias}
         routeDetails = getRouteDetails(pageRoute, obj["dir"])
         delta = compute_new_state_with_files(routeDetails, json.loads(pageState), event, filesMetadataArr, files, req, res)
-        return Response(json.dumps(delta, cls=AtriEncoder), media_type="application/json")
+        res.body = bytes(json.dumps(delta, cls=AtriEncoder), encoding="utf-8")
+        res.media_type = "application/json"
+        res.status_code = 200
+        return res
 
     uvicorn.run(app, host=host, port=int(port))
 
